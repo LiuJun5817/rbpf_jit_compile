@@ -1,0 +1,1861 @@
+90
+90
+90
+90
+90
+90
+90
+90
+90
+90
+90
+90
+90
+90
+//jit.rs 1359
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 83, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+53
+
+//jit.rs 1361
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 85, modrm: false, indirect: None, first_operand: 0, second_operand: 5, immediate_size: S0, immediate: 0 }
+55
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 87, modrm: false, indirect: None, first_operand: 0, second_operand: 15, immediate_size: S0, immediate: 0 }
+41
+57
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 86, modrm: false, indirect: None, first_operand: 0, second_operand: 14, immediate_size: S0, immediate: 0 }
+41
+56
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 85, modrm: false, indirect: None, first_operand: 0, second_operand: 13, immediate_size: S0, immediate: 0 }
+41
+55
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 84, modrm: false, indirect: None, first_operand: 0, second_operand: 12, immediate_size: S0, immediate: 0 }
+41
+54
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 81, modrm: false, indirect: None, first_operand: 0, second_operand: 9, immediate_size: S0, immediate: 0 }
+41
+51
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 80, modrm: false, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S0, immediate: 0 }
+41
+50
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 81, modrm: false, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S0, immediate: 0 }
+51
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 82, modrm: false, indirect: None, first_operand: 0, second_operand: 2, immediate_size: S0, immediate: 0 }
+52
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 86, modrm: false, indirect: None, first_operand: 0, second_operand: 6, immediate_size: S0, immediate: 0 }
+56
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 80, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+50
+
+
+
+//jit.rs 1363
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: None, first_operand: 4, second_operand: 0, immediate_size: S0, immediate: 0 }
+48
+89
+e0
+
+//jit.rs 1364
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 0, second_operand: 4, immediate_size: S32, immediate: -24 }
+48
+81
+c4
+ffffffe8
+
+//jit.rs 972
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 80, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+50
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 81, modrm: false, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S0, immediate: 0 }
+51
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 82, modrm: false, indirect: None, first_operand: 0, second_operand: 2, immediate_size: S0, immediate: 0 }
+52
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 86, modrm: false, indirect: None, first_operand: 0, second_operand: 6, immediate_size: S0, immediate: 0 }
+56
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 87, modrm: false, indirect: None, first_operand: 0, second_operand: 7, immediate_size: S0, immediate: 0 }
+57
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 80, modrm: false, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S0, immediate: 0 }
+41
+50
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 81, modrm: false, indirect: None, first_operand: 0, second_operand: 9, immediate_size: S0, immediate: 0 }
+41
+51
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 82, modrm: false, indirect: None, first_operand: 0, second_operand: 10, immediate_size: S0, immediate: 0 }
+41
+52
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 83, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+53
+
+//jit.rs 976
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 84, modrm: false, indirect: None, first_operand: 0, second_operand: 4, immediate_size: S0, immediate: 0 }
+54
+
+//jit.rs 977
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 255, modrm: true, indirect: Some(OffsetIndexShift(0, 4, 0)), first_operand: 6, second_operand: 4, immediate_size: S0, immediate: 0 }
+48
+ff
+b4
+24
+0
+
+//jit.rs 978
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 4, second_operand: 4, immediate_size: S32, immediate: -16 }
+48
+81
+e4
+fffffff0
+
+//jit.rs 1000
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: None, first_operand: 0, second_operand: 6, immediate_size: S0, immediate: 0 }
+48
+89
+c6
+
+//jit.rs 1017
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(Offset(422922152)), first_operand: 7, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+8b
+bf
+193547a8
+
+//jit.rs 1043
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 184, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S64, immediate: 94681782572656 }
+48
+b8
+561cd2045670
+
+//jit.rs 1044
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 255, modrm: true, indirect: None, first_operand: 2, second_operand: 0, immediate_size: S0, immediate: 0 }
+48
+ff
+d0
+
+
+//jit.rs 1058
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 0, second_operand: 4, immediate_size: S32, immediate: 0 }
+48
+81
+c4
+0
+
+//jit.rs 1060
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(OffsetIndexShift(8, 4, 0)), first_operand: 4, second_operand: 4, immediate_size: S0, immediate: 0 }
+48
+8b
+a4
+24
+8
+
+//jit.rs 1063
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 91, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+5b
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 90, modrm: false, indirect: None, first_operand: 0, second_operand: 10, immediate_size: S0, immediate: 0 }
+41
+5a
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 89, modrm: false, indirect: None, first_operand: 0, second_operand: 9, immediate_size: S0, immediate: 0 }
+41
+59
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 88, modrm: false, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S0, immediate: 0 }
+41
+58
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 95, modrm: false, indirect: None, first_operand: 0, second_operand: 7, immediate_size: S0, immediate: 0 }
+5f
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 94, modrm: false, indirect: None, first_operand: 0, second_operand: 6, immediate_size: S0, immediate: 0 }
+5e
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 90, modrm: false, indirect: None, first_operand: 0, second_operand: 2, immediate_size: S0, immediate: 0 }
+5a
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 89, modrm: false, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S0, immediate: 0 }
+59
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 88, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+58
+
+//jit.rs 1370
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 0, second_operand: 4, immediate_size: S32, immediate: 24 }
+48
+81
+c4
+18
+
+//jit.rs 1371
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 88, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+58
+
+//jit.rs 1372
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 0, second_operand: 4, immediate_size: S32, immediate: 80 }
+48
+81
+c4
+50
+
+//jit.rs 1373
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 91, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+5b
+
+//jit.rs 1374
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 195, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+c3
+
+//jit.rs 1380
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 5, second_operand: 3, immediate_size: S32, immediate: 1 }
+48
+81
+eb
+1
+
+//jit.rs 1381
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 41, modrm: true, indirect: None, first_operand: 11, second_operand: 3, immediate_size: S0, immediate: 0 }
+4c
+29
+db
+
+//jit.rs 1383
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 43, modrm: true, indirect: Some(Offset(422922160)), first_operand: 3, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+2b
+9f
+193547b0
+
+//jit.rs 1384
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 247, modrm: true, indirect: None, first_operand: 3, second_operand: 3, immediate_size: S0, immediate: 0 }
+48
+f7
+db
+
+//jit.rs 1385
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: Some(Offset(422922168)), first_operand: 3, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+89
+9f
+193547b8
+
+//jit.rs 1398
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(Offset(422922128)), first_operand: 4, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+8b
+a7
+19354790
+
+//jit.rs 1399
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 195, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+c3
+
+//jit.rs 1342-1344
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 10, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8d
+97
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: Some(Offset(0)), first_operand: 0, second_operand: 10, immediate_size: S32, immediate: 1 }
+49
+c7
+42
+0
+1
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: Some(Offset(8)), first_operand: 0, second_operand: 10, immediate_size: S32, immediate: 8 }
+49
+c7
+42
+8
+8
+
+//jit.rs 1404
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: None, first_operand: 3, second_operand: 11, immediate_size: S0, immediate: 0 }
+49
+89
+db
+
+
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: Some(Offset(422922280)), first_operand: 11, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+89
+9f
+19354828
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 233, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -73 }
+e9
+ffffffb7
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 57, modrm: true, indirect: None, first_operand: 11, second_operand: 3, immediate_size: S0, immediate: 0 }
+4c
+39
+db
+X86Instruction { size: S32, opcode_escape_sequence: 1, opcode: 134, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -47 }
+f
+86
+ffffffd1
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 10, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8d
+97
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: Some(Offset(8)), first_operand: 0, second_operand: 10, immediate_size: S0, immediate: 0 }
+49
+89
+42
+8
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: 0 }
+48
+c7
+c0
+0
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 233, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -105 }
+e9
+ffffff97
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 57, modrm: true, indirect: None, first_operand: 11, second_operand: 3, immediate_size: S0, immediate: 0 }
+4c
+39
+db
+X86Instruction { size: S32, opcode_escape_sequence: 1, opcode: 134, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -79 }
+f
+86
+ffffffb1
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 233, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -58 }
+e9
+ffffffc6
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 10, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8d
+97
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: Some(Offset(0)), first_operand: 0, second_operand: 10, immediate_size: S32, immediate: 1 }
+49
+c7
+42
+0
+1
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: Some(Offset(8)), first_operand: 0, second_operand: 10, immediate_size: S32, immediate: 2 }
+49
+c7
+42
+8
+2
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 233, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -42 }
+e9
+ffffffd6
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 10, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8d
+97
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: Some(Offset(0)), first_operand: 0, second_operand: 10, immediate_size: S32, immediate: 1 }
+49
+c7
+42
+0
+1
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: Some(Offset(8)), first_operand: 0, second_operand: 10, immediate_size: S32, immediate: 7 }
+49
+c7
+42
+8
+7
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 233, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -70 }
+e9
+ffffffba
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 10, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8d
+97
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: Some(Offset(0)), first_operand: 0, second_operand: 10, immediate_size: S32, immediate: 1 }
+49
+c7
+42
+0
+1
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: Some(Offset(8)), first_operand: 0, second_operand: 10, immediate_size: S32, immediate: 4 }
+49
+c7
+42
+8
+4
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 233, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -98 }
+e9
+ffffff9e
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 10, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8d
+97
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: Some(Offset(0)), first_operand: 0, second_operand: 10, immediate_size: S32, immediate: 1 }
+49
+c7
+42
+0
+1
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: Some(Offset(8)), first_operand: 0, second_operand: 10, immediate_size: S32, immediate: 5 }
+49
+c7
+42
+8
+5
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 233, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -126 }
+e9
+ffffff82
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 232, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -363 }
+e8
+fffffe95
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 10, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8d
+97
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: Some(Offset(0)), first_operand: 0, second_operand: 10, immediate_size: S32, immediate: 1 }
+49
+c7
+42
+0
+1
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: Some(Offset(8)), first_operand: 0, second_operand: 10, immediate_size: S32, immediate: 15 }
+49
+c7
+42
+8
+f
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 233, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -159 }
+e9
+ffffff61
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 104, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -1 }
+48
+68
+ffffffff
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: Some(Offset(422922168)), first_operand: 3, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+89
+9f
+193547b8
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 80, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+50
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 81, modrm: false, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S0, immediate: 0 }
+51
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 82, modrm: false, indirect: None, first_operand: 0, second_operand: 2, immediate_size: S0, immediate: 0 }
+52
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 86, modrm: false, indirect: None, first_operand: 0, second_operand: 6, immediate_size: S0, immediate: 0 }
+56
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 87, modrm: false, indirect: None, first_operand: 0, second_operand: 7, immediate_size: S0, immediate: 0 }
+57
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 80, modrm: false, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S0, immediate: 0 }
+41
+50
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 81, modrm: false, indirect: None, first_operand: 0, second_operand: 9, immediate_size: S0, immediate: 0 }
+41
+51
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 82, modrm: false, indirect: None, first_operand: 0, second_operand: 10, immediate_size: S0, immediate: 0 }
+41
+52
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 83, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+53
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 84, modrm: false, indirect: None, first_operand: 0, second_operand: 4, immediate_size: S0, immediate: 0 }
+54
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 255, modrm: true, indirect: Some(OffsetIndexShift(0, 4, 0)), first_operand: 6, second_operand: 4, immediate_size: S0, immediate: 0 }
+48
+ff
+b4
+24
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 4, second_operand: 4, immediate_size: S32, immediate: -16 }
+48
+81
+e4
+fffffff0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 255, modrm: true, indirect: None, first_operand: 2, second_operand: 11, immediate_size: S0, immediate: 0 }
+49
+ff
+d3
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 0, second_operand: 4, immediate_size: S32, immediate: 0 }
+48
+81
+c4
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(OffsetIndexShift(8, 4, 0)), first_operand: 4, second_operand: 4, immediate_size: S0, immediate: 0 }
+48
+8b
+a4
+24
+8
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 91, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+5b
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 90, modrm: false, indirect: None, first_operand: 0, second_operand: 10, immediate_size: S0, immediate: 0 }
+41
+5a
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 89, modrm: false, indirect: None, first_operand: 0, second_operand: 9, immediate_size: S0, immediate: 0 }
+41
+59
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 88, modrm: false, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S0, immediate: 0 }
+41
+58
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 95, modrm: false, indirect: None, first_operand: 0, second_operand: 7, immediate_size: S0, immediate: 0 }
+5f
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 94, modrm: false, indirect: None, first_operand: 0, second_operand: 6, immediate_size: S0, immediate: 0 }
+5e
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 90, modrm: false, indirect: None, first_operand: 0, second_operand: 2, immediate_size: S0, immediate: 0 }
+5a
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 89, modrm: false, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S0, immediate: 0 }
+59
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 88, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+58
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(Offset(422922160)), first_operand: 3, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+8b
+9f
+193547b0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 11, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8d
+9f
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: Some(Offset(0)), first_operand: 7, second_operand: 11, immediate_size: S32, immediate: 0 }
+49
+81
+7b
+0
+0
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 91, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+5b
+X86Instruction { size: S32, opcode_escape_sequence: 1, opcode: 133, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -367 }
+f
+85
+fffffe91
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 11, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8d
+9f
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(Offset(8)), first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+49
+8b
+43
+8
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 195, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+c3
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 5, second_operand: 4, immediate_size: S32, immediate: 40 }
+48
+81
+ec
+28
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: Some(OffsetIndexShift(0, 4, 0)), first_operand: 11, second_operand: 4, immediate_size: S0, immediate: 0 }
+4c
+89
+9c
+24
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(OffsetIndexShift(40, 4, 0)), first_operand: 11, second_operand: 4, immediate_size: S0, immediate: 0 }
+4c
+8b
+9c
+24
+28
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: Some(OffsetIndexShift(40, 4, 0)), first_operand: 12, second_operand: 4, immediate_size: S0, immediate: 0 }
+4c
+89
+a4
+24
+28
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: Some(OffsetIndexShift(32, 4, 0)), first_operand: 13, second_operand: 4, immediate_size: S0, immediate: 0 }
+4c
+89
+ac
+24
+20
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: Some(OffsetIndexShift(24, 4, 0)), first_operand: 14, second_operand: 4, immediate_size: S0, immediate: 0 }
+4c
+89
+b4
+24
+18
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: Some(OffsetIndexShift(16, 4, 0)), first_operand: 15, second_operand: 4, immediate_size: S0, immediate: 0 }
+4c
+89
+bc
+24
+10
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: Some(OffsetIndexShift(8, 4, 0)), first_operand: 5, second_operand: 4, immediate_size: S0, immediate: 0 }
+48
+89
+ac
+24
+8
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 135, modrm: true, indirect: Some(OffsetIndexShift(0, 4, 0)), first_operand: 11, second_operand: 4, immediate_size: S0, immediate: 0 }
+4c
+87
+9c
+24
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: Some(Offset(422922136)), first_operand: 0, second_operand: 7, immediate_size: S32, immediate: 1 }
+48
+81
+87
+19354798
+1
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(Offset(422922136)), first_operand: 5, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+8b
+af
+19354798
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 7, second_operand: 5, immediate_size: S32, immediate: 64 }
+81
+fd
+40
+X86Instruction { size: S32, opcode_escape_sequence: 1, opcode: 131, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -361 }
+f
+83
+fffffe97
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(Offset(422922144)), first_operand: 5, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+8b
+af
+193547a0
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 195, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+c3
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 4, second_operand: 0, immediate_size: S32, immediate: -8 }
+48
+81
+e0
+fffffff8
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 189, modrm: false, indirect: None, first_operand: 0, second_operand: 5, immediate_size: S64, immediate: 4294967320 }
+48
+bd
+100000018
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 57, modrm: true, indirect: None, first_operand: 5, second_operand: 0, immediate_size: S0, immediate: 0 }
+48
+39
+e8
+X86Instruction { size: S32, opcode_escape_sequence: 1, opcode: 131, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -367 }
+f
+83
+fffffe91
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 189, modrm: false, indirect: None, first_operand: 0, second_operand: 5, immediate_size: S64, immediate: 4294967296 }
+48
+bd
+100000000
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 57, modrm: true, indirect: None, first_operand: 5, second_operand: 0, immediate_size: S0, immediate: 0 }
+48
+39
+e8
+X86Instruction { size: S32, opcode_escape_sequence: 1, opcode: 130, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -386 }
+f
+82
+fffffe7e
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 41, modrm: true, indirect: None, first_operand: 5, second_operand: 0, immediate_size: S0, immediate: 0 }
+48
+29
+e8
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+49
+89
+c3
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 193, modrm: true, indirect: None, first_operand: 5, second_operand: 11, immediate_size: S8, immediate: 3 }
+49
+c1
+eb
+3
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 189, modrm: false, indirect: None, first_operand: 0, second_operand: 5, immediate_size: S64, immediate: 140711572946944 }
+48
+bd
+7ff9f7524000
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 1, modrm: true, indirect: None, first_operand: 5, second_operand: 0, immediate_size: S0, immediate: 0 }
+48
+1
+e8
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(Offset(0)), first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+48
+8b
+40
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(Offset(422922144)), first_operand: 5, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+8b
+af
+193547a0
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 195, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+c3
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 80, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+50
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 81, modrm: false, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S0, immediate: 0 }
+51
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 82, modrm: false, indirect: None, first_operand: 0, second_operand: 2, immediate_size: S0, immediate: 0 }
+52
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 86, modrm: false, indirect: None, first_operand: 0, second_operand: 6, immediate_size: S0, immediate: 0 }
+56
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 87, modrm: false, indirect: None, first_operand: 0, second_operand: 7, immediate_size: S0, immediate: 0 }
+57
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 80, modrm: false, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S0, immediate: 0 }
+41
+50
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 81, modrm: false, indirect: None, first_operand: 0, second_operand: 9, immediate_size: S0, immediate: 0 }
+41
+51
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 82, modrm: false, indirect: None, first_operand: 0, second_operand: 10, immediate_size: S0, immediate: 0 }
+41
+52
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 83, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+53
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 84, modrm: false, indirect: None, first_operand: 0, second_operand: 4, immediate_size: S0, immediate: 0 }
+54
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 255, modrm: true, indirect: Some(OffsetIndexShift(0, 4, 0)), first_operand: 6, second_operand: 4, immediate_size: S0, immediate: 0 }
+48
+ff
+b4
+24
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 4, second_operand: 4, immediate_size: S32, immediate: -16 }
+48
+81
+e4
+fffffff0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: None, first_operand: 11, second_operand: 2, immediate_size: S0, immediate: 0 }
+4c
+89
+da
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S32, immediate: 0 }
+48
+c7
+c1
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922352)), first_operand: 6, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+8d
+b7
+19354870
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 7, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+8d
+bf
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 184, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S64, immediate: 94681781751152 }
+48
+b8
+561cd1f7cd70
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 255, modrm: true, indirect: None, first_operand: 2, second_operand: 0, immediate_size: S0, immediate: 0 }
+48
+ff
+d0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 0, second_operand: 4, immediate_size: S32, immediate: 0 }
+48
+81
+c4
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(OffsetIndexShift(8, 4, 0)), first_operand: 4, second_operand: 4, immediate_size: S0, immediate: 0 }
+48
+8b
+a4
+24
+8
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 91, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+5b
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 90, modrm: false, indirect: None, first_operand: 0, second_operand: 10, immediate_size: S0, immediate: 0 }
+41
+5a
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 89, modrm: false, indirect: None, first_operand: 0, second_operand: 9, immediate_size: S0, immediate: 0 }
+41
+59
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 88, modrm: false, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S0, immediate: 0 }
+41
+58
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 95, modrm: false, indirect: None, first_operand: 0, second_operand: 7, immediate_size: S0, immediate: 0 }
+5f
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 94, modrm: false, indirect: None, first_operand: 0, second_operand: 6, immediate_size: S0, immediate: 0 }
+5e
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 90, modrm: false, indirect: None, first_operand: 0, second_operand: 2, immediate_size: S0, immediate: 0 }
+5a
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 89, modrm: false, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S0, immediate: 0 }
+59
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 88, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+58
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 11, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8d
+9f
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: Some(Offset(0)), first_operand: 7, second_operand: 11, immediate_size: S32, immediate: 0 }
+49
+81
+7b
+0
+0
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 91, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+5b
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 135, modrm: true, indirect: Some(OffsetIndexShift(0, 4, 0)), first_operand: 11, second_operand: 4, immediate_size: S0, immediate: 0 }
+4c
+87
+9c
+24
+0
+X86Instruction { size: S32, opcode_escape_sequence: 1, opcode: 133, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -588 }
+f
+85
+fffffdb4
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(Offset(422922296)), first_operand: 11, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8b
+9f
+19354838
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 195, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+c3
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 80, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+50
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 81, modrm: false, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S0, immediate: 0 }
+51
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 82, modrm: false, indirect: None, first_operand: 0, second_operand: 2, immediate_size: S0, immediate: 0 }
+52
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 86, modrm: false, indirect: None, first_operand: 0, second_operand: 6, immediate_size: S0, immediate: 0 }
+56
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 87, modrm: false, indirect: None, first_operand: 0, second_operand: 7, immediate_size: S0, immediate: 0 }
+57
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 80, modrm: false, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S0, immediate: 0 }
+41
+50
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 81, modrm: false, indirect: None, first_operand: 0, second_operand: 9, immediate_size: S0, immediate: 0 }
+41
+51
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 82, modrm: false, indirect: None, first_operand: 0, second_operand: 10, immediate_size: S0, immediate: 0 }
+41
+52
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 83, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+53
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 84, modrm: false, indirect: None, first_operand: 0, second_operand: 4, immediate_size: S0, immediate: 0 }
+54
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 255, modrm: true, indirect: Some(OffsetIndexShift(0, 4, 0)), first_operand: 6, second_operand: 4, immediate_size: S0, immediate: 0 }
+48
+ff
+b4
+24
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 4, second_operand: 4, immediate_size: S32, immediate: -16 }
+48
+81
+e4
+fffffff0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: None, first_operand: 11, second_operand: 2, immediate_size: S0, immediate: 0 }
+4c
+89
+da
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S32, immediate: 0 }
+48
+c7
+c1
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922352)), first_operand: 6, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+8d
+b7
+19354870
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 7, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+8d
+bf
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 184, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S64, immediate: 94681781755760 }
+48
+b8
+561cd1f7df70
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 255, modrm: true, indirect: None, first_operand: 2, second_operand: 0, immediate_size: S0, immediate: 0 }
+48
+ff
+d0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 0, second_operand: 4, immediate_size: S32, immediate: 0 }
+48
+81
+c4
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(OffsetIndexShift(8, 4, 0)), first_operand: 4, second_operand: 4, immediate_size: S0, immediate: 0 }
+48
+8b
+a4
+24
+8
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 91, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+5b
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 90, modrm: false, indirect: None, first_operand: 0, second_operand: 10, immediate_size: S0, immediate: 0 }
+41
+5a
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 89, modrm: false, indirect: None, first_operand: 0, second_operand: 9, immediate_size: S0, immediate: 0 }
+41
+59
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 88, modrm: false, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S0, immediate: 0 }
+41
+58
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 95, modrm: false, indirect: None, first_operand: 0, second_operand: 7, immediate_size: S0, immediate: 0 }
+5f
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 94, modrm: false, indirect: None, first_operand: 0, second_operand: 6, immediate_size: S0, immediate: 0 }
+5e
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 90, modrm: false, indirect: None, first_operand: 0, second_operand: 2, immediate_size: S0, immediate: 0 }
+5a
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 89, modrm: false, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S0, immediate: 0 }
+59
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 88, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+58
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 11, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8d
+9f
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: Some(Offset(0)), first_operand: 7, second_operand: 11, immediate_size: S32, immediate: 0 }
+49
+81
+7b
+0
+0
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 91, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+5b
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 135, modrm: true, indirect: Some(OffsetIndexShift(0, 4, 0)), first_operand: 11, second_operand: 4, immediate_size: S0, immediate: 0 }
+4c
+87
+9c
+24
+0
+X86Instruction { size: S32, opcode_escape_sequence: 1, opcode: 133, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -721 }
+f
+85
+fffffd2f
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(Offset(422922296)), first_operand: 11, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8b
+9f
+19354838
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 195, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+c3
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 80, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+50
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 81, modrm: false, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S0, immediate: 0 }
+51
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 82, modrm: false, indirect: None, first_operand: 0, second_operand: 2, immediate_size: S0, immediate: 0 }
+52
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 86, modrm: false, indirect: None, first_operand: 0, second_operand: 6, immediate_size: S0, immediate: 0 }
+56
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 87, modrm: false, indirect: None, first_operand: 0, second_operand: 7, immediate_size: S0, immediate: 0 }
+57
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 80, modrm: false, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S0, immediate: 0 }
+41
+50
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 81, modrm: false, indirect: None, first_operand: 0, second_operand: 9, immediate_size: S0, immediate: 0 }
+41
+51
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 82, modrm: false, indirect: None, first_operand: 0, second_operand: 10, immediate_size: S0, immediate: 0 }
+41
+52
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 83, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+53
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 84, modrm: false, indirect: None, first_operand: 0, second_operand: 4, immediate_size: S0, immediate: 0 }
+54
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 255, modrm: true, indirect: Some(OffsetIndexShift(0, 4, 0)), first_operand: 6, second_operand: 4, immediate_size: S0, immediate: 0 }
+48
+ff
+b4
+24
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 4, second_operand: 4, immediate_size: S32, immediate: -16 }
+48
+81
+e4
+fffffff0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: None, first_operand: 11, second_operand: 2, immediate_size: S0, immediate: 0 }
+4c
+89
+da
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S32, immediate: 0 }
+48
+c7
+c1
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922352)), first_operand: 6, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+8d
+b7
+19354870
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 7, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+8d
+bf
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 184, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S64, immediate: 94681781752688 }
+48
+b8
+561cd1f7d370
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 255, modrm: true, indirect: None, first_operand: 2, second_operand: 0, immediate_size: S0, immediate: 0 }
+48
+ff
+d0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 0, second_operand: 4, immediate_size: S32, immediate: 0 }
+48
+81
+c4
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(OffsetIndexShift(8, 4, 0)), first_operand: 4, second_operand: 4, immediate_size: S0, immediate: 0 }
+48
+8b
+a4
+24
+8
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 91, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+5b
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 90, modrm: false, indirect: None, first_operand: 0, second_operand: 10, immediate_size: S0, immediate: 0 }
+41
+5a
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 89, modrm: false, indirect: None, first_operand: 0, second_operand: 9, immediate_size: S0, immediate: 0 }
+41
+59
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 88, modrm: false, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S0, immediate: 0 }
+41
+58
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 95, modrm: false, indirect: None, first_operand: 0, second_operand: 7, immediate_size: S0, immediate: 0 }
+5f
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 94, modrm: false, indirect: None, first_operand: 0, second_operand: 6, immediate_size: S0, immediate: 0 }
+5e
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 90, modrm: false, indirect: None, first_operand: 0, second_operand: 2, immediate_size: S0, immediate: 0 }
+5a
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 89, modrm: false, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S0, immediate: 0 }
+59
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 88, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+58
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 11, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8d
+9f
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: Some(Offset(0)), first_operand: 7, second_operand: 11, immediate_size: S32, immediate: 0 }
+49
+81
+7b
+0
+0
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 91, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+5b
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 135, modrm: true, indirect: Some(OffsetIndexShift(0, 4, 0)), first_operand: 11, second_operand: 4, immediate_size: S0, immediate: 0 }
+4c
+87
+9c
+24
+0
+X86Instruction { size: S32, opcode_escape_sequence: 1, opcode: 133, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -854 }
+f
+85
+fffffcaa
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(Offset(422922296)), first_operand: 11, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8b
+9f
+19354838
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 195, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+c3
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 80, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+50
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 81, modrm: false, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S0, immediate: 0 }
+51
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 82, modrm: false, indirect: None, first_operand: 0, second_operand: 2, immediate_size: S0, immediate: 0 }
+52
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 86, modrm: false, indirect: None, first_operand: 0, second_operand: 6, immediate_size: S0, immediate: 0 }
+56
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 87, modrm: false, indirect: None, first_operand: 0, second_operand: 7, immediate_size: S0, immediate: 0 }
+57
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 80, modrm: false, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S0, immediate: 0 }
+41
+50
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 81, modrm: false, indirect: None, first_operand: 0, second_operand: 9, immediate_size: S0, immediate: 0 }
+41
+51
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 82, modrm: false, indirect: None, first_operand: 0, second_operand: 10, immediate_size: S0, immediate: 0 }
+41
+52
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 83, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+53
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 84, modrm: false, indirect: None, first_operand: 0, second_operand: 4, immediate_size: S0, immediate: 0 }
+54
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 255, modrm: true, indirect: Some(OffsetIndexShift(0, 4, 0)), first_operand: 6, second_operand: 4, immediate_size: S0, immediate: 0 }
+48
+ff
+b4
+24
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 4, second_operand: 4, immediate_size: S32, immediate: -16 }
+48
+81
+e4
+fffffff0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: None, first_operand: 11, second_operand: 2, immediate_size: S0, immediate: 0 }
+4c
+89
+da
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S32, immediate: 0 }
+48
+c7
+c1
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922352)), first_operand: 6, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+8d
+b7
+19354870
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 7, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+8d
+bf
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 184, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S64, immediate: 94681781754224 }
+48
+b8
+561cd1f7d970
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 255, modrm: true, indirect: None, first_operand: 2, second_operand: 0, immediate_size: S0, immediate: 0 }
+48
+ff
+d0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 0, second_operand: 4, immediate_size: S32, immediate: 0 }
+48
+81
+c4
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(OffsetIndexShift(8, 4, 0)), first_operand: 4, second_operand: 4, immediate_size: S0, immediate: 0 }
+48
+8b
+a4
+24
+8
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 91, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+5b
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 90, modrm: false, indirect: None, first_operand: 0, second_operand: 10, immediate_size: S0, immediate: 0 }
+41
+5a
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 89, modrm: false, indirect: None, first_operand: 0, second_operand: 9, immediate_size: S0, immediate: 0 }
+41
+59
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 88, modrm: false, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S0, immediate: 0 }
+41
+58
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 95, modrm: false, indirect: None, first_operand: 0, second_operand: 7, immediate_size: S0, immediate: 0 }
+5f
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 94, modrm: false, indirect: None, first_operand: 0, second_operand: 6, immediate_size: S0, immediate: 0 }
+5e
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 90, modrm: false, indirect: None, first_operand: 0, second_operand: 2, immediate_size: S0, immediate: 0 }
+5a
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 89, modrm: false, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S0, immediate: 0 }
+59
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 88, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+58
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 11, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8d
+9f
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: Some(Offset(0)), first_operand: 7, second_operand: 11, immediate_size: S32, immediate: 0 }
+49
+81
+7b
+0
+0
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 91, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+5b
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 135, modrm: true, indirect: Some(OffsetIndexShift(0, 4, 0)), first_operand: 11, second_operand: 4, immediate_size: S0, immediate: 0 }
+4c
+87
+9c
+24
+0
+X86Instruction { size: S32, opcode_escape_sequence: 1, opcode: 133, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -987 }
+f
+85
+fffffc25
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(Offset(422922296)), first_operand: 11, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8b
+9f
+19354838
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 195, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+c3
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 80, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+50
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 81, modrm: false, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S0, immediate: 0 }
+51
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 82, modrm: false, indirect: None, first_operand: 0, second_operand: 2, immediate_size: S0, immediate: 0 }
+52
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 86, modrm: false, indirect: None, first_operand: 0, second_operand: 6, immediate_size: S0, immediate: 0 }
+56
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 87, modrm: false, indirect: None, first_operand: 0, second_operand: 7, immediate_size: S0, immediate: 0 }
+57
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 80, modrm: false, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S0, immediate: 0 }
+41
+50
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 81, modrm: false, indirect: None, first_operand: 0, second_operand: 9, immediate_size: S0, immediate: 0 }
+41
+51
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 82, modrm: false, indirect: None, first_operand: 0, second_operand: 10, immediate_size: S0, immediate: 0 }
+41
+52
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 83, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+53
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 84, modrm: false, indirect: None, first_operand: 0, second_operand: 4, immediate_size: S0, immediate: 0 }
+54
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 255, modrm: true, indirect: Some(OffsetIndexShift(0, 4, 0)), first_operand: 6, second_operand: 4, immediate_size: S0, immediate: 0 }
+48
+ff
+b4
+24
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 4, second_operand: 4, immediate_size: S32, immediate: -16 }
+48
+81
+e4
+fffffff0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: None, first_operand: 11, second_operand: 1, immediate_size: S0, immediate: 0 }
+4c
+89
+d9
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: None, first_operand: 10, second_operand: 2, immediate_size: S0, immediate: 0 }
+4c
+89
+d2
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S32, immediate: 0 }
+49
+c7
+c0
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922352)), first_operand: 6, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+8d
+b7
+19354870
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 7, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+8d
+bf
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 184, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S64, immediate: 94681781757872 }
+48
+b8
+561cd1f7e7b0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 255, modrm: true, indirect: None, first_operand: 2, second_operand: 0, immediate_size: S0, immediate: 0 }
+48
+ff
+d0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 0, second_operand: 4, immediate_size: S32, immediate: 0 }
+48
+81
+c4
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(OffsetIndexShift(8, 4, 0)), first_operand: 4, second_operand: 4, immediate_size: S0, immediate: 0 }
+48
+8b
+a4
+24
+8
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 91, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+5b
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 90, modrm: false, indirect: None, first_operand: 0, second_operand: 10, immediate_size: S0, immediate: 0 }
+41
+5a
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 89, modrm: false, indirect: None, first_operand: 0, second_operand: 9, immediate_size: S0, immediate: 0 }
+41
+59
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 88, modrm: false, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S0, immediate: 0 }
+41
+58
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 95, modrm: false, indirect: None, first_operand: 0, second_operand: 7, immediate_size: S0, immediate: 0 }
+5f
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 94, modrm: false, indirect: None, first_operand: 0, second_operand: 6, immediate_size: S0, immediate: 0 }
+5e
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 90, modrm: false, indirect: None, first_operand: 0, second_operand: 2, immediate_size: S0, immediate: 0 }
+5a
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 89, modrm: false, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S0, immediate: 0 }
+59
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 88, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+58
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 11, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8d
+9f
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: Some(Offset(0)), first_operand: 7, second_operand: 11, immediate_size: S32, immediate: 0 }
+49
+81
+7b
+0
+0
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 91, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+5b
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 135, modrm: true, indirect: Some(OffsetIndexShift(0, 4, 0)), first_operand: 11, second_operand: 4, immediate_size: S0, immediate: 0 }
+4c
+87
+9c
+24
+0
+X86Instruction { size: S32, opcode_escape_sequence: 1, opcode: 133, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -1123 }
+f
+85
+fffffb9d
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(Offset(422922296)), first_operand: 11, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8b
+9f
+19354838
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 195, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+c3
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 80, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+50
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 81, modrm: false, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S0, immediate: 0 }
+51
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 82, modrm: false, indirect: None, first_operand: 0, second_operand: 2, immediate_size: S0, immediate: 0 }
+52
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 86, modrm: false, indirect: None, first_operand: 0, second_operand: 6, immediate_size: S0, immediate: 0 }
+56
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 87, modrm: false, indirect: None, first_operand: 0, second_operand: 7, immediate_size: S0, immediate: 0 }
+57
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 80, modrm: false, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S0, immediate: 0 }
+41
+50
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 81, modrm: false, indirect: None, first_operand: 0, second_operand: 9, immediate_size: S0, immediate: 0 }
+41
+51
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 82, modrm: false, indirect: None, first_operand: 0, second_operand: 10, immediate_size: S0, immediate: 0 }
+41
+52
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 83, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+53
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 84, modrm: false, indirect: None, first_operand: 0, second_operand: 4, immediate_size: S0, immediate: 0 }
+54
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 255, modrm: true, indirect: Some(OffsetIndexShift(0, 4, 0)), first_operand: 6, second_operand: 4, immediate_size: S0, immediate: 0 }
+48
+ff
+b4
+24
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 4, second_operand: 4, immediate_size: S32, immediate: -16 }
+48
+81
+e4
+fffffff0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: None, first_operand: 11, second_operand: 1, immediate_size: S0, immediate: 0 }
+4c
+89
+d9
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: None, first_operand: 10, second_operand: 2, immediate_size: S0, immediate: 0 }
+4c
+89
+d2
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S32, immediate: 0 }
+49
+c7
+c0
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922352)), first_operand: 6, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+8d
+b7
+19354870
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 7, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+8d
+bf
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 184, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S64, immediate: 94681781757664 }
+48
+b8
+561cd1f7e6e0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 255, modrm: true, indirect: None, first_operand: 2, second_operand: 0, immediate_size: S0, immediate: 0 }
+48
+ff
+d0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 0, second_operand: 4, immediate_size: S32, immediate: 0 }
+48
+81
+c4
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(OffsetIndexShift(8, 4, 0)), first_operand: 4, second_operand: 4, immediate_size: S0, immediate: 0 }
+48
+8b
+a4
+24
+8
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 91, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+5b
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 90, modrm: false, indirect: None, first_operand: 0, second_operand: 10, immediate_size: S0, immediate: 0 }
+41
+5a
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 89, modrm: false, indirect: None, first_operand: 0, second_operand: 9, immediate_size: S0, immediate: 0 }
+41
+59
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 88, modrm: false, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S0, immediate: 0 }
+41
+58
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 95, modrm: false, indirect: None, first_operand: 0, second_operand: 7, immediate_size: S0, immediate: 0 }
+5f
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 94, modrm: false, indirect: None, first_operand: 0, second_operand: 6, immediate_size: S0, immediate: 0 }
+5e
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 90, modrm: false, indirect: None, first_operand: 0, second_operand: 2, immediate_size: S0, immediate: 0 }
+5a
+90
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 89, modrm: false, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S0, immediate: 0 }
+59
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 88, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+58
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 11, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8d
+9f
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: Some(Offset(0)), first_operand: 7, second_operand: 11, immediate_size: S32, immediate: 0 }
+49
+81
+7b
+0
+0
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 91, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+5b
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 135, modrm: true, indirect: Some(OffsetIndexShift(0, 4, 0)), first_operand: 11, second_operand: 4, immediate_size: S0, immediate: 0 }
+4c
+87
+9c
+24
+0
+X86Instruction { size: S32, opcode_escape_sequence: 1, opcode: 133, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -1260 }
+f
+85
+fffffb14
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(Offset(422922296)), first_operand: 11, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8b
+9f
+19354838
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 195, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+c3
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 80, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+50
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 81, modrm: false, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S0, immediate: 0 }
+51
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 82, modrm: false, indirect: None, first_operand: 0, second_operand: 2, immediate_size: S0, immediate: 0 }
+52
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 86, modrm: false, indirect: None, first_operand: 0, second_operand: 6, immediate_size: S0, immediate: 0 }
+56
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 87, modrm: false, indirect: None, first_operand: 0, second_operand: 7, immediate_size: S0, immediate: 0 }
+57
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 80, modrm: false, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S0, immediate: 0 }
+41
+50
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 81, modrm: false, indirect: None, first_operand: 0, second_operand: 9, immediate_size: S0, immediate: 0 }
+41
+51
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 82, modrm: false, indirect: None, first_operand: 0, second_operand: 10, immediate_size: S0, immediate: 0 }
+41
+52
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 83, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+53
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 84, modrm: false, indirect: None, first_operand: 0, second_operand: 4, immediate_size: S0, immediate: 0 }
+54
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 255, modrm: true, indirect: Some(OffsetIndexShift(0, 4, 0)), first_operand: 6, second_operand: 4, immediate_size: S0, immediate: 0 }
+48
+ff
+b4
+24
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 4, second_operand: 4, immediate_size: S32, immediate: -16 }
+48
+81
+e4
+fffffff0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: None, first_operand: 11, second_operand: 1, immediate_size: S0, immediate: 0 }
+4c
+89
+d9
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: None, first_operand: 10, second_operand: 2, immediate_size: S0, immediate: 0 }
+4c
+89
+d2
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S32, immediate: 0 }
+49
+c7
+c0
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922352)), first_operand: 6, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+8d
+b7
+19354870
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 7, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+8d
+bf
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 184, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S64, immediate: 94681781757472 }
+48
+b8
+561cd1f7e620
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 255, modrm: true, indirect: None, first_operand: 2, second_operand: 0, immediate_size: S0, immediate: 0 }
+48
+ff
+d0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 0, second_operand: 4, immediate_size: S32, immediate: 0 }
+48
+81
+c4
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(OffsetIndexShift(8, 4, 0)), first_operand: 4, second_operand: 4, immediate_size: S0, immediate: 0 }
+48
+8b
+a4
+24
+8
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 91, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+5b
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 90, modrm: false, indirect: None, first_operand: 0, second_operand: 10, immediate_size: S0, immediate: 0 }
+41
+5a
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 89, modrm: false, indirect: None, first_operand: 0, second_operand: 9, immediate_size: S0, immediate: 0 }
+41
+59
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 88, modrm: false, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S0, immediate: 0 }
+41
+58
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 95, modrm: false, indirect: None, first_operand: 0, second_operand: 7, immediate_size: S0, immediate: 0 }
+5f
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 94, modrm: false, indirect: None, first_operand: 0, second_operand: 6, immediate_size: S0, immediate: 0 }
+5e
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 90, modrm: false, indirect: None, first_operand: 0, second_operand: 2, immediate_size: S0, immediate: 0 }
+5a
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 89, modrm: false, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S0, immediate: 0 }
+59
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 88, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+58
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 11, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8d
+9f
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: Some(Offset(0)), first_operand: 7, second_operand: 11, immediate_size: S32, immediate: 0 }
+49
+81
+7b
+0
+0
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 91, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+5b
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 135, modrm: true, indirect: Some(OffsetIndexShift(0, 4, 0)), first_operand: 11, second_operand: 4, immediate_size: S0, immediate: 0 }
+4c
+87
+9c
+24
+0
+X86Instruction { size: S32, opcode_escape_sequence: 1, opcode: 133, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -1396 }
+f
+85
+fffffa8c
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(Offset(422922296)), first_operand: 11, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8b
+9f
+19354838
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 195, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+c3
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 80, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+50
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 81, modrm: false, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S0, immediate: 0 }
+51
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 82, modrm: false, indirect: None, first_operand: 0, second_operand: 2, immediate_size: S0, immediate: 0 }
+52
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 86, modrm: false, indirect: None, first_operand: 0, second_operand: 6, immediate_size: S0, immediate: 0 }
+56
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 87, modrm: false, indirect: None, first_operand: 0, second_operand: 7, immediate_size: S0, immediate: 0 }
+57
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 80, modrm: false, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S0, immediate: 0 }
+41
+50
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 81, modrm: false, indirect: None, first_operand: 0, second_operand: 9, immediate_size: S0, immediate: 0 }
+41
+51
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 82, modrm: false, indirect: None, first_operand: 0, second_operand: 10, immediate_size: S0, immediate: 0 }
+41
+52
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 83, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+53
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 84, modrm: false, indirect: None, first_operand: 0, second_operand: 4, immediate_size: S0, immediate: 0 }
+54
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 255, modrm: true, indirect: Some(OffsetIndexShift(0, 4, 0)), first_operand: 6, second_operand: 4, immediate_size: S0, immediate: 0 }
+48
+ff
+b4
+24
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 4, second_operand: 4, immediate_size: S32, immediate: -16 }
+48
+81
+e4
+fffffff0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: None, first_operand: 11, second_operand: 1, immediate_size: S0, immediate: 0 }
+4c
+89
+d9
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: None, first_operand: 10, second_operand: 2, immediate_size: S0, immediate: 0 }
+4c
+89
+d2
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S32, immediate: 0 }
+49
+c7
+c0
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922352)), first_operand: 6, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+8d
+b7
+19354870
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 7, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+8d
+bf
+19354830
+90
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 184, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S64, immediate: 94681781757280 }
+48
+b8
+561cd1f7e560
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 255, modrm: true, indirect: None, first_operand: 2, second_operand: 0, immediate_size: S0, immediate: 0 }
+48
+ff
+d0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 0, second_operand: 4, immediate_size: S32, immediate: 0 }
+48
+81
+c4
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(OffsetIndexShift(8, 4, 0)), first_operand: 4, second_operand: 4, immediate_size: S0, immediate: 0 }
+48
+8b
+a4
+24
+8
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 91, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+5b
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 90, modrm: false, indirect: None, first_operand: 0, second_operand: 10, immediate_size: S0, immediate: 0 }
+41
+5a
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 89, modrm: false, indirect: None, first_operand: 0, second_operand: 9, immediate_size: S0, immediate: 0 }
+41
+59
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 88, modrm: false, indirect: None, first_operand: 0, second_operand: 8, immediate_size: S0, immediate: 0 }
+41
+58
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 95, modrm: false, indirect: None, first_operand: 0, second_operand: 7, immediate_size: S0, immediate: 0 }
+5f
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 94, modrm: false, indirect: None, first_operand: 0, second_operand: 6, immediate_size: S0, immediate: 0 }
+5e
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 90, modrm: false, indirect: None, first_operand: 0, second_operand: 2, immediate_size: S0, immediate: 0 }
+5a
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 89, modrm: false, indirect: None, first_operand: 0, second_operand: 1, immediate_size: S0, immediate: 0 }
+59
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 88, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+58
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 11, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8d
+9f
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: Some(Offset(0)), first_operand: 7, second_operand: 11, immediate_size: S32, immediate: 0 }
+49
+81
+7b
+0
+0
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 91, modrm: false, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S0, immediate: 0 }
+41
+5b
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 135, modrm: true, indirect: Some(OffsetIndexShift(0, 4, 0)), first_operand: 11, second_operand: 4, immediate_size: S0, immediate: 0 }
+4c
+87
+9c
+24
+0
+X86Instruction { size: S32, opcode_escape_sequence: 1, opcode: 133, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -1533 }
+f
+85
+fffffa03
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(Offset(422922296)), first_operand: 11, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8b
+9f
+19354838
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 195, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+c3
+
+
+
+
+here2
+//jit.rs 408-410
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S32, immediate: 0 }
+49
+c7
+c3
+0
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 232, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -1785 }
+e8
+fffff907
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S32, immediate: 0 }
+49
+c7
+c3
+0
+
+
+//mov32 r1, 1
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: None, first_operand: 0, second_operand: 6, immediate_size: S32, immediate: 1 }
+c7
+c6
+1
+
+//jit.rs 408-410  循环
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S32, immediate: 1 }
+49
+c7
+c3
+1
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 232, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -1810 }
+e8
+fffff8ee
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S32, immediate: 0 }
+49
+c7
+c3
+0
+
+
+//mov32 r0, r1
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: None, first_operand: 6, second_operand: 0, immediate_size: S0, immediate: 0 }
+89
+f0
+
+//jit.rs 408-410  循环
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S32, immediate: 2 }
+49
+c7
+c3
+2
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 232, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -1831 }
+e8
+fffff8d9
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S32, immediate: 0 }
+49
+c7
+c3
+0
+
+
+here6
+//exit  
+//jit.rs 692-716
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 139, modrm: true, indirect: Some(Offset(422922136)), first_operand: 5, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+8b
+af
+19354798
+
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 7, second_operand: 5, immediate_size: S32, immediate: 0 }
+81
+fd
+0
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: None, first_operand: 0, second_operand: 11, immediate_size: S32, immediate: 2 }
+49
+c7
+c3
+2
+X86Instruction { size: S32, opcode_escape_sequence: 1, opcode: 132, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -1664 }
+f
+84
+fffff980
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 5, second_operand: 5, immediate_size: S32, immediate: 1 }
+48
+81
+ed
+1
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 137, modrm: true, indirect: Some(Offset(422922136)), first_operand: 5, second_operand: 7, immediate_size: S0, immediate: 0 }
+48
+89
+af
+19354798
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 7, second_operand: 3, immediate_size: S32, immediate: 3 }
+48
+81
+fb
+3
+X86Instruction { size: S32, opcode_escape_sequence: 1, opcode: 134, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -1729 }
+f
+86
+fffff93f
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 0, second_operand: 3, immediate_size: S32, immediate: -3 }
+48
+81
+c3
+fffffffd
+
+//jit.rs 716
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 195, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S0, immediate: 0 }
+c3
+
+
+here4
+//jit.rs 891
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 7, second_operand: 3, immediate_size: S32, immediate: 4 }
+48
+81
+fb
+4
+
+//jit.rs 931
+X86Instruction { size: S32, opcode_escape_sequence: 1, opcode: 130, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -1750 }
+f
+82
+fffff92a
+
+//jit.rs 891
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 129, modrm: true, indirect: None, first_operand: 0, second_operand: 3, immediate_size: S32, immediate: 1 }
+48
+81
+c3
+1
+
+
+//jit.rs 1342-1344
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 141, modrm: true, indirect: Some(Offset(422922288)), first_operand: 10, second_operand: 7, immediate_size: S0, immediate: 0 }
+4c
+8d
+97
+19354830
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: Some(Offset(0)), first_operand: 0, second_operand: 10, immediate_size: S32, immediate: 1 }
+49
+c7
+42
+0
+1
+X86Instruction { size: S64, opcode_escape_sequence: 0, opcode: 199, modrm: true, indirect: Some(Offset(8)), first_operand: 0, second_operand: 10, immediate_size: S32, immediate: 6 }
+49
+c7
+42
+8
+6
+
+//jit.rs 732
+X86Instruction { size: S32, opcode_escape_sequence: 0, opcode: 233, modrm: false, indirect: None, first_operand: 0, second_operand: 0, immediate_size: S32, immediate: -1715 }
+e9
+fffff94d
